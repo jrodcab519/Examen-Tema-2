@@ -7,12 +7,14 @@ public class Ejercicio4 {
 
         int planta;
         int recorrido;
+        int plantaAnterior = 1;
 
         do{
             System.out.println("Introduzca una planta (-1 para salir): ");
             planta = s.nextInt();
 
-            recorrido = planta  ;
+            plantaAnterior = plantaAnterior + planta;
+            recorrido = planta + plantaAnterior ;
         }while(planta != -1);
 
         System.out.println(recorrido + 1);
