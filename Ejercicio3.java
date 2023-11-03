@@ -11,10 +11,11 @@ public class Ejercicio3 {
         char blanco = ' ';
 
 
-        if(numero%2 !=0 && numero >= 1) {
-            System.out.println(caracter);
-        }else {
-            System.out.println("Número no válido ");
-        }
+            if (numero % 2 != 0 && numero >= 1) {
+                System.out.println(caracter);
+            } else {
+                System.out.println("Número no válido ");
+            }
+
     }
 }
